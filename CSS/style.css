@@ -209,3 +209,62 @@ font-size: 30px;
 .gallery-content .gallery-item:hover .overlly i:hover{
     color: tomato;
 }
+
+#services {
+    margin-top: 60px;
+    color: #0A2156;
+}
+
+#services h1 {
+ text-align: center;
+font-size: 30px;
+}
+#services .services-content {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+#services .services-content .services-item p {
+    text-align: justify;
+}
+.services-item {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: all .6s ease;
+}
+.services-item .services-icon{
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.services-content .services-item .services-tittle{
+    margin-bottom: 8px;
+}
+
+.services-item:hover{
+    background-color: #0A2156;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #24a0ed;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+}
+
+footer i{
+    padding: 10px 10px;
+}
