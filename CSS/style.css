@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.btn {
+    background-color: #24a0ed;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* start nav style */
+nav {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.main-nav .logo {
+    width: 80px;
+}
+.brand {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.main-nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+.main-nav ul a {
+    font-size: 15px;
+    color: black;
+}
+.button {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.button .signup {
+    background-color: transparent;
+    color: black;
+}
+
+/* end nav style */
+
+
+/* start hearder design */
+
+.header {
+    font-family: 'Sora', sans-serif;
+    margin-top: 10px;
+    background: url(../Images/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+/* end hearder design */
+
+.header .header-item {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.header-item {
+    color: #0A2156;
+}
+.header .header-button {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.header-item h1 {
+    font-size: 43px;
+    width: 65%;
+}
+.header-item h3 {
+    margin-top: 10px;
+    width: 65%;
+}
+
+.header-button button {
+    padding: 12px 30px;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.header-button .reg-btn {
+    background-color: transparent;
+    color: #24a0ed;
+    border: 1px solid #24a0ed ;
+}
+
+#abouts{
+    margin-top: 60px;
+    color: #0A2156;
+}
+.about-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+}
+#abouts h1{
+    text-align: center;
+    font-size: 30px;
+}
+#abouts img {
+    height: 300px;
+}
+
+/* gallery */
+#gallery {
+    margin-top: 60px;
+    color: #0A2156;
+}
+
+#gallery h1 {
+ text-align: center;
+font-size: 30px;
+}
+.gallery-content{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition: 1s ease;
+    
+}
+
+.gallery-content img{
+    width: 350px;
+    transition: 1s ease;
+}
+
+.gallery-content .gallery-item {
+    height: 263px;
+    width: 350px;
+    position: relative;
+    transition: .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+}
+
+.gallery-content .overlly {
+    height: 263px;
+    width: 350px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.gallery-content .overlly div i{
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.gallery-content .gallery-item:hover .overlly{
+    display: flex;
+    transition: 1s ease;
+    cursor: pointer;
+
+}
+.gallery-content .gallery-item:hover .overlly i:hover{
+    color: tomato;
+}
