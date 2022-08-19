@@ -211,8 +211,14 @@ font-size: 30px;
 }
 
 #services {
+    
     margin-top: 60px;
     color: #0A2156;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #services h1 {
