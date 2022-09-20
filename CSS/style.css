@@ -105,6 +105,7 @@ nav {
     margin-top: 40px;
     display: flex;
     gap: 20px;
+    animation-duration: 4s;
 }
 .header-item h1 {
     font-size: 43px;
@@ -146,7 +147,9 @@ nav {
 #abouts img {
     height: 300px;
 }
-
+.about-text{
+    animation-duration: 3s;
+}
 /* gallery */
 #gallery {
     margin-top: 60px;
@@ -255,9 +258,14 @@ font-size: 30px;
     color: white;
     cursor: pointer;
 }
-
+.computer-net{
+    animation-delay: 6s;
+}
+.vid-edit{
+    animation-delay: 7s;
+}
 footer{
-    margin-top: 20px;
+    margin-top: 60px;
     background-color: #24a0ed;
     color: white;
     padding: 20px 0;
